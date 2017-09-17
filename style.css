@@ -1,0 +1,49 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.bg { 
+   
+    background-image: url("images/bg.png");
+    
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    
+    font-size: 80;
+    color: white;
+    letter-spacing: 2;
+    position: absolute;
+    top: 25%; 
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 20;
+    left: 50%;
+    margin-left: -150;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    float: left;
+    width: 60px;
+    padding: 0 20;
+    color: rgba(255,255,255,0.5);  
+    text-decoration: none;
+    
+}
+
+.navbar a:hover {
+    color: rgba(255,255,255,0.9);
+}
